@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bleach: Getsuga Tensho Slash</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="game-container">
+    <div class="ui-layer">
+      <div>HOLLOW PURIFIED: <span id="score">0</span></div>
+      <div>SOUL SHIELD: <span id="lives">❤️❤️❤️</span></div>
+    </div>
+    
+    <div id="game-over">
+      <h1>BANKAI FAILED</h1>
+      <p>Total Hollow Dimusnahkan: <span id="final-score">0</span></p>
+      <button onclick="restartGame()">BANGKIT LAGI</button>
+    </div>
+
+    <canvas id="canvas" width="600" height="400"></canvas>
+  </div>
+  <p class="instructions">Arahkan Mouse / Sentuh Layar untuk Mengayunkan Zangetsu!</p>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
